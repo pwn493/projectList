@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    font-weight: bold;
+    font-size: 30px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0em .45em .2em .45em;
+    float:right;
+}
+
+.standAlone {
+    float:none !important;
+}
+
+.checked {
+    background-color:green !important;
+}
+
+.checkable {
+    padding-right: 1em !important;
+}
+
+.listContainer {
+    width:100%;
+    
+    
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ 
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    margin-bottom: 1em;
+}
+
+.newItem {
+    overflow: hidden;
+}
+
+.list {
+        border: 2px solid black;
+    border-radius: 10px;
+    
+    padding:1em;
+    margin-right: 1em;
+    
+      -webkit-box-flex: 2;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 2;         /* OLD - Firefox 19- */
+  -webkit-flex: 2;          /* Chrome */
+  -ms-flex: 2;  
+    flex-grow:2;
+}
+
+.projectList {
+    background-color: pink;
+}
+
+.rewardList {
+    background-color: yellow;
+}
+
+.oldProjectList {
+    background-color: red;
+}
+
+.oldRewardList {
+    background-color: orange;
+}
+
+
+.item {
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top:.5em;
+    padding:.2em;
+    overflow: hidden;
+    font-size:30px;
+}
